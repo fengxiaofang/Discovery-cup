@@ -1,0 +1,47 @@
+body{ width: 100%; height: 100%; background-color: #f8f8f8;}
+.header{ height: 30%; width: 100%; margin-top: 40px; margin-left: 200px;}
+.content{ width: 1200px; height: 430px; background-color:#ffffff; position: relative; left: 160px; top:20px;}
+.content_top{ height:62px; line-height:62px; padding-top:10px; color:#35a9e3; font-size:24px; padding-left:35px; border-bottom:2px solid #f8f8f8;}
+.content_bottom_left{float: left; width: 535px;}
+.content_bottom_right{float: right; width: 665px;}
+.content_bottom_left .cont{ padding:42px 0 50px 20px;}
+/*定义列表的样式*/
+.content_bottom_left .cont td{ height:37px; padding-bottom:15px;}
+.content_bottom_left .cont td .input_item{ height:37px; position:relative;}
+/*列表元素样式*/
+.content_bottom_left label{ float:left; display:inline-block; width:82px; margin-right:8px; text-align:right; font-size:16px; line-height:37px;}
+.content_bottom_left .text{ float:left; height:35px; line-height:35px; font-size:16px; padding:0 5px; width:250px; border:1px solid #dcdcdc;}
+.input_item .text1{ float:left; height:35px; line-height:35px; font-size:16px; padding:0 5px; width:250px; border:1px solid #dcdcdc;}
+.input_item .btn_1{ width:274px; height:45px; line-height:45px; font-size:20px; border:none; background:#35a9e3; color:#fff; cursor:pointer;}
+.code
+{
+    position: relative;
+    left: 100px;
+    background:url(images/yanzhengma.png);
+    font-family:Arial;
+    font-style:italic;
+    color:blue;
+    font-size:30px;
+    border:0;
+    letter-spacing:3px;
+    font-weight:bolder;
+    float:left;
+    cursor:pointer;
+    width:150px;
+    height:60px;
+    line-height:60px;
+    text-align:center;
+}
+a
+{
+    float: left;
+    position: relative;
+    right:130px;
+    text-decoration:none;
+    font-size:12px;
+    color:#288bc4;
+}
+a:hover
+{
+    text-decoration:underline;
+}

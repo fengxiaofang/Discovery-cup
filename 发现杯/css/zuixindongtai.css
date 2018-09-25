@@ -1,0 +1,67 @@
+.menu
+{
+    width:100%;
+    height:45px;
+    background: url('images/menu.png') top repeat-x;
+}
+.menu_left
+{
+    font-family:新宋体;
+    font-size:20px;
+    font-weight:100;
+    width:70%;
+    float:left;
+}
+.menu_right
+{
+    float:left;
+    height:45px;
+    width:30%;
+}
+.menu_left ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+.menu_left ul li
+{
+    width:140px;
+    height:45px;
+    display:block;
+    text-align:center;
+    float:left;
+}
+.menu_left ul li a
+{
+    display:inline-block;
+    text-align: center;
+    line-height: 45px;
+    width:150px;
+    height:42px;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.menu_left li a:hover,.menu_left li a.current
+{
+    background-color: #4E4C4C;
+}
+.menu_right_content
+{
+    height: 45px;
+    margin-top: 7px;
+    margin-left: 150px;
+}
+.zxdt_content{ height: 900px; width: 1200px; position:relative; left: 80px; background-color: #ffffff;}
+.zxdt_content .title{ height:80px; text-align: center; color: #333; font-size: 30px; padding-top: 28px; font-weight: 100;}
+.zxdt_content .ul{  margin-left: 120px;}
+.zxdt_content li{ line-height: 45px; height: 45px; }
+.zxdt_content li a{ color: #333; text-decoration: none;}
+.zxdt_content li a:hover{ text-decoration: underline;}
+.zxdt_content .yema{ position:relative; left: 500px; padding-top: 20px; height: 30px;}
+.pagination li a:hover{ color: #f47300; text-decoration: none}
+.pagination .current{ color: #f47300}

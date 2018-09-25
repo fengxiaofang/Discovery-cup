@@ -1,0 +1,132 @@
+*{  margin:0; padding:0; }
+.header{
+    height: 123px;
+    width: 100%;
+    background-image:url("images/master_header.png");
+}
+.left{
+    height: 123px;
+    width: 55%;
+    float: left;
+}
+.right{
+
+    height: 123px;
+    width: 45%;
+    float: left;
+}
+.left_content{
+    height: 60px;
+    width: 450px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.rignt_content
+{
+    margin-top:10px;
+    margin-left:100px;
+}
+.menu
+{
+    width:100%;
+    height:45px;
+    background: #2e2d2d;
+}
+.menu_left
+{
+    font-family:新宋体;
+    font-size:20px;
+    font-weight:100;
+    height:45px;
+    width:70%;
+    float:left;
+}
+.menu_right
+{
+    float:left;
+    height:45px;
+    width:30%;
+}
+.menu_left ul
+{
+    list-style-type:none;
+    margin-left:80px;
+    padding:0;
+    overflow:hidden;
+}
+.menu_left ul li
+{
+    width:140px;
+    height:45px;
+    display:block;
+    text-align:center;
+    float:left;
+}
+.menu_left ul li a
+{
+    display:inline-block;
+    text-align: center;
+    line-height: 45px;
+    width:150px;
+    height:42px;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.menu_left li a:hover,.menu_left li a.current
+{
+    background-color: #4E4C4C;
+}
+.menu_right_content
+{
+    height: 45px;
+    margin-top: 7px;
+    margin-left: 150px;
+}
+.body{width: 100%; background-color: #ebebe0;}
+.content{ width: 1200px; background-color: #ffffff; position: relative; left: 80px;}
+.content .content_left{ height: 480px; width:150px; background-color: #429fbe; margin-right: 35px; margin-left:20px; float: left; margin-top: 30px;}
+.content .content_right{ float: left; width: 980px;}
+.content .content_left a{ display: block; height: 60px; line-height: 60px; text-align: center; font-size: 18px; color: #fff; text-decoration: none;}
+.content .content_left a:hover,.content .content_left .current{ background-color: #3b8fab;}
+.content_right h1.title{padding: 40px 0 0 0px; text-align:center; font-size: 24px; line-height: 35px; font-weight: bold; color: #555;}
+.content_right p{ line-height: 30px; color: #555; font-size: 14px;}
+.content_right p.blank{ height: 10px;}
+.content_right p strong{ font-size: 16px; color: #555;}
+.content_right p a{ color: #2e9df3;}
+.content_right p .color_1{ color: #1074db;}
+.content_right p .color_2{ color: #ff7800;}
+.content_right .footer{ height: 300px;}
+.content_right .footer .tr1{font-size: 14px; color: #555; position:relative; top: 130px; left: 500px;}
+.content_right .footer .tr2{font-size: 10px; color: #555; position:relative; top: 140px; left: 760px;}
+.content_right .footer span{ position:relative; left: 520px;}
+.content_right .f_title{  font-size:20px; height: 35px; line-height: 35px; font-weight: bold; color: #626262; background-color: #ccc;}
+.content_right .jxsz_cont{ margin-left: 100px; }
+/*比赛日程*/
+.bsrc_con table{ width: 900px; margin: 0 auto 18px; height: 75px; box-shadow: 10px 10px 5px #888888;}
+.bsrc_con th{ width: 73px; padding: 0 17px 6px 0; color: #fff; font-size: 18px; background: url("images/bsrc_bg1.png"); }
+.bsrc_con td{ padding: 6px 30px 0 10px; color: #fff; background: url("images/bsrc_bg1.png") repeat-x;}
+.bsrc_con .cont_title{ height: 40px; line-height: 40px; background-color:#ff7800; font-size: 20px; color: #ffffff;}
+.content_right .cssy_title{height: 40px; padding: 0 20px; line-height: 40px; background-color:#ff7800; font-size: 20px; color: #ffffff;}
+/*参赛须知*/
+.csxz_cont p{ margin-bottom: 5px; padding-left: 82px;}
+.csxz_cont p img{  vertical-align: top; }
+.csxz_cont span{ font-size: 20px; color: #f18800; display: inline-block; }
+/*组织机构*/
+.zzjg_cont .cont_title{  height: 40px; width: 90px; padding: 0 20px; line-height: 40px; background-color:#ff7800; font-size: 20px; color: #ffffff;}
+/*备赛资料*/
+.bszl{ height: 1100px; width: 100%;}
+.bszl_cont{ height: 1250px; width:1200px; margin-left:80px; background-color: #ffffff;}
+.bszl_cont .title{ height: 100px; text-align: center; color: #333; font-size: 30px; padding-top: 45px; font-weight: 100;}
+.bszl_cont .data_info{ padding: 30px 40px 0; border: 1px dashed; height: 450px; width: 900px; margin-left: 120px;}
+.data_info h2{ font-size: 22px; font-weight:100; line-height: 20px; color: #ff6400; padding-bottom: 40px;}
+.data_info p{ color: #666565; font-size: 18px; padding-bottom: 30px;}
+.data_info .look{ color: #ff6400;}
+.btn_data a{ width: 120px; height: 40px; line-height: 40px; text-align: center; color: #fff; display: inline-block; background: #35a9e4; text-decoration: none; margin-left: 400px;}
+.doc_down{ height: 400px; width: 900px;margin-top: 40px; margin-left: 120px;}
+.doc_down .doc_title{ height: 52px; width:950px; line-height: 52px; color: #666; font-size: 20px; padding-left: 30px; background-color:#8cd98c;}
+.doc_down .doc_ul{ width: 982px; height: 350px; background-color: #f5f5f0;}
+.doc_ul li{ height: 45px; line-height: 45px; font-size: 16px; color: #666565;position: relative; left: 60px;}
+.doc_ul li a:hover{ color: #ff6400}
